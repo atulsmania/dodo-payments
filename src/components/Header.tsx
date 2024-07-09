@@ -19,8 +19,8 @@ const Header = () => {
   const defaultIconSize = isMobile ? 18 : 24;
 
   return (
-    <div className="sticky top-0 z-30 flex items-center justify-between px-6 py-5 border-b-2 bg-primary">
-      <div className="flex items-center gap-4">
+    <div className="sticky top-0 z-30 flex items-center justify-between p-2 py-5 border-b-2 md:px-6 bg-primary">
+      <div className="flex items-center md:gap-4">
         <div className="flex gap-0 md:gap-1">
           <div className="xl:hidden">
             <IconButton onClick={toggleNavbar}>
