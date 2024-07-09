@@ -11,7 +11,7 @@ const Metrics = () => {
           <ChevronDown size={16} strokeWidth={1} />
         </span>
       </div>
-      <div className="flex flex-wrap justify-between gap-3">
+      <div className="grid flex-wrap justify-between grid-cols-2 gap-3 md:flex">
         {CurrentMetrics.map((metric, index) => (
           <Card key={index} metric={metric} index={index} />
         ))}
